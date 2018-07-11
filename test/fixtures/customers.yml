@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+sarah:
+  first_name: sarah
+  last_name: jones
+  username: sgf55
+
+thomas:
+  first_name: Thomas
+  last_name: Smith
+  username: smithy
+
+yasmine:
+  first_name: yasmine
+  last_name:
+  username: lotus123
+
+trevor:
+  first_name: Trevor
+  last_name: Smith
+  username: smithy 
