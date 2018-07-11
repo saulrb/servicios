@@ -87,8 +87,5 @@ production:
   <<: *default
   database: servicios_production
   username: servicios_prod
-  password: SrbPassword#1
-  host: localhost
-  port: 5432
-  schema_search_path: sharedapp,public
+  password: <%= ENV['SERVICIOS_DATABASE_PASSWORD'] %>
     #<%= ENV['SERVICIOS_DATABASE_PASSWORD'] %>
